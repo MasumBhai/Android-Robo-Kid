@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_demo_color">#ffa533</color>
+    <color name="lightBlue">#464dec</color>
+    <color name="lightWhite">#E9E9E9</color>
+    <color name="light_medium_grey">#f3f3f3</color>
+    <color name="greenly_color">#008577</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+    <color name="splash">#070908</color>
+    <color name="Transparent">#0000ffff</color>
+    <!--    <color name="Transparent">#FFFEF7</color>-->
+    <color name="silk_for_Arafat">#C0C0C0</color>
+    <color name="blue_for_indira">#87CEFA</color>
+    <color name="green_for_ananda">#C8E0AB</color>
+    <color name="red_for_fidel">#ED5C4E</color>
+    <color name="yellow_for_modi">#FFFFE0</color>
+    <color name="ash_for_heikal">#C5DAFF</color>
+    <color name="pink_for_joli">#FFE4E1</color>
+    <color name="grey_for_pranab">#D3D3D3</color>
+
+    <color name="comfortPink">#D79EB4</color>
+    <color name="AbigailColor">#AEA2C5</color>
+    <color name="CuteOrange">#FFB885</color>
+    <color name="sportGrey">#A6A4A9</color>
+    <color name="DustyBlond">#CCBF94</color>
+    <color name="LavenderFrost">#BDABBE</color>
+    <color name="MeadowBlossom">#7AB2D4</color>
+    <color name="TenderGreen">#7AC985</color>
+    <color name="AsterFlowerBlue">#9BACD8</color>
+    <color name="Lilac">#DCD0FF</color>
+
+    <color name="BlazeRed">#F3453F</color>
+    <color name="GoldenYellow">#FFDF00</color>
+    <color name="GoldenRod">#DAA520</color>
+    <color name="VegasGold">#C5B358</color>
+    <color name="BloodOrange">#BC3823</color>
+    <color name="DarkBlood">#4E0E04</color>
+    <color name="Cerulean">#008FBE</color>
+    <color name="Glory">#F09E45</color>
+    <color name="NeutralGrey">#828382</color>
+    <color name="NeutralWood">#DBD1C3</color>
+    <color name="Twilight">#AC93C5</color>
+    <color name="CuteGreen">#ABF4AE</color>
+    <color name="LightFlamingoPink">#E7D1DD</color>
+    <color name="SoftSkyBlue">#C1F1FF</color>
+    <color name="Celeste">#B2FFFF</color>
+    <color name="WarmLight">#FCF9D9</color>
+    <color name="ShinySilver">#F8FFFD</color>
+    <color name="ShinyWhite">#F2F7FF</color>
+    <color name="MilkyWay">#FEFFF3</color>
+    <color name="Sweet">#E9CFEB</color>
+    <color name="FashionWhite">#F8F3E8</color>
+</resources>

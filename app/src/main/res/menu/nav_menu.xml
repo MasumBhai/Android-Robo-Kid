@@ -1,0 +1,27 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_icon"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+    <item
+        android:id="@+id/renew_icon"
+        android:enabled="true"
+        android:icon="@drawable/autorenew"
+        android:title="Auto-Re-New" />
+    <item
+        android:id="@+id/camera_icon"
+        android:enabled="true"
+        android:icon="@drawable/camera"
+        android:title="camera" />
+    <item
+        android:id="@+id/settings_icon"
+        android:enabled="true"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+
+
+</menu>
