@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000605655850",
+    "firebase_url": "https://rpi-data-58837-default-rtdb.firebaseio.com",
+    "project_id": "rpi-data-58837",
+    "storage_bucket": "rpi-data-58837.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000605655850:android:e306ccd61da4214cc6f453",
+        "android_client_info": {
+          "package_name": "com.brainy_fools.robo_kid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000605655850-i37df7o3rn87uc4t21qo9nr6n765hefk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlOd2uUh4jV-EpeerSX-gEeecnyBfLa6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000605655850-i37df7o3rn87uc4t21qo9nr6n765hefk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
