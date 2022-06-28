@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/drawable/menu_select.xml" value="0.1685" />
+        <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/activity_dashboard.xml" value="0.16" />
         <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/activity_front_page.xml" value="0.22" />
+        <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/activity_on_boarding.xml" value="0.1453125" />
+        <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/activity_send_otp.xml" value="0.5" />
         <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/activity_starter.xml" value="0.1" />
+        <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/activity_verify_otp.xml" value="0.15806159420289856" />
         <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/fragment_about.xml" value="0.159375" />
         <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/fragment_embedded.xml" value="0.1453125" />
         <entry key="..\:/Users/Malware/AndroidStudioProjects/RoboKid/app/src/main/res/layout/fragment_home.xml" value="0.1" />

@@ -23,7 +23,7 @@ public class StarterActivity extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(SplashTime);
-                    startActivity(new Intent(getApplicationContext(), FrontPage.class));
+                    startActivity(new Intent(getApplicationContext(), OnBoarding.class));
                     finish();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
