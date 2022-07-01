@@ -1,7 +1,6 @@
 package com.brainy_fools.robo_kid;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -35,7 +34,7 @@ public class OnBoarding extends AppCompatActivity {
         onBoardingFragment.setOnRightOutListener(new PaperOnboardingOnRightOutListener() {
             @Override
             public void onRightOut() {
-                startActivity(new Intent(getApplicationContext(), FrontPage.class));
+                startActivity(new Intent(getApplicationContext(), SendOTP.class));
                 finish();  // finishing current activity here
             }
         });
@@ -45,7 +44,7 @@ public class OnBoarding extends AppCompatActivity {
     }
 
     private ArrayList<PaperOnboardingPage> getElementsForOnBoardingFragment() {
-        PaperOnboardingPage scr1 = new PaperOnboardingPage("What",
+        PaperOnboardingPage scr1 = new PaperOnboardingPage("About",
                 "I was destined to be a supervillain, and we were destined to be rivals!",
                 Color.parseColor("#F8FFFD"), R.drawable.rsz_robo_3, R.drawable.robo_smile);
         PaperOnboardingPage scr2 = new PaperOnboardingPage("Features",

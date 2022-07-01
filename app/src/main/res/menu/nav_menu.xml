@@ -6,17 +6,17 @@
         android:checked="false"
         android:enabled="true"
         android:icon="@drawable/home_icon"
-        android:title="Home" />
+        android:title="Connect" />
     <item
         android:id="@+id/renew_icon"
         android:enabled="true"
         android:icon="@drawable/autorenew"
-        android:title="Auto-Re-New" />
+        android:title="Re-Fresh" />
     <item
         android:id="@+id/camera_icon"
         android:enabled="true"
         android:icon="@drawable/camera"
-        android:title="camera" />
+        android:title="Live-View" />
     <item
         android:id="@+id/settings_icon"
         android:enabled="true"
