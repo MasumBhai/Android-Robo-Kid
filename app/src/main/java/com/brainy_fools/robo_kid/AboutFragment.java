@@ -1,13 +1,17 @@
 package com.brainy_fools.robo_kid;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.EditText;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -15,6 +19,9 @@ import android.view.WindowManager;
  * create an instance of this fragment.
  */
 public class AboutFragment extends Fragment {
+    View root;
+    private EditText editableWebLink;
+    private String videoLink;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,6 +68,30 @@ public class AboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about, container, false);
+        root = inflater.inflate(R.layout.fragment_about, container, false);
+        Button butt = root.findViewById(R.id.buttonWebLink);
+        butt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                editableWebLink = root.findViewById(R.id.inputVideoLink);
+                Bundle bundle = new Bundle();
+                bundle.putString("localWebLink", editableWebLink.getText().toString());
+                EmbeddedFragment emb = new EmbeddedFragment();
+                emb.setArguments(bundle);
+                FragmentManager manager = getParentFragmentManager();
+                manager.beginTransaction().replace(R.id.fragmentAbout, emb).commit();
+//                assert getFragmentManager() != null;
+//                getFragmentManager().beginTransaction().replace(R.id.embeddIDFragment, emb).commit();
+
+//                getParentFragmentManager().setFragmentResult("fragmentSettings", bundle);
+                editableWebLink.setText("");
+            }
+        });
+
+//        videoLink = editableWebLink.getText().toString().trim();
+//        Intent intent = new Intent(requireActivity().getApplicationContext(),EmbeddedFragment.class);
+//        intent.putExtra("localWebLink",videoLink);
+//        startActivity(intent);
+        return root;
     }
 }

@@ -3,15 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/fragmentAbout"
     android:background="@color/FashionWhite"
     tools:context=".AboutFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/inputVideoLink"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="@color/purple_700"
+        android:hint="input your web Link"
         android:layout_gravity="center"
-        android:text="About Page"
-        android:textSize="26sp"/>
+        android:imeOptions="actionDone"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/buttonWebLink"
+        android:text="Set Video"
+        android:layout_gravity="bottom|right"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
 
 </FrameLayout>

@@ -40,7 +40,7 @@ public class OnBoarding extends AppCompatActivity {
         onBoardingFragment.setOnRightOutListener(new PaperOnboardingOnRightOutListener() {
             @Override
             public void onRightOut() {
-                startActivity(new Intent(getApplicationContext(), SendOTP.class));
+                startActivity(new Intent(getApplicationContext(), FrontPage.class));
                 finish();  // finishing current activity here
             }
         });
